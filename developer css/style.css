@@ -1,0 +1,68 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* general settings */
+body {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  text-align: left;
+}
+li {
+  list-style-type: none;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar {
+  display: none;
+}
+/* hero */
+.readable {
+  display: grid;
+  place-content: center;
+  margin-top: 2em;
+}
+
+.readable h1 {
+  font-size: 2em;
+}
+
+.readable p {
+  margin-top: 10px;
+}
+.companies {
+  margin: 3em 0 3em 0;
+  column-count: 2;
+}
+.fig {
+  display: grid;
+  gap: 2em;
+}
+figure img {
+  width: 300px;
+}
+.left-top,
+.right-bottom {
+  display: grid;
+  gap: 1.7em;
+}
+figcaption {
+  display: grid;
+  gap: 1em;
+}
+figcaption h3 {
+  font-size: 2em;
+}
+
+/* about section */
+.about {
+  background-color: gray;
+}
