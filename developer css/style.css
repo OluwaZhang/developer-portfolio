@@ -26,6 +26,8 @@ a {
 /* header */
 .Johnathan {
   font-size: 1.2em;
+  display: flex;
+  align-items: center;
 }
 .nav-bar {
   display: none;
@@ -51,16 +53,21 @@ a {
 
 .group {
   display: flex;
-  gap: 10px;
-  justify-content: space;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .companies {
-  display: grid;
+  /* display: grid;
   gap: 1.2em;
-  place-content: center;
-  margin: 4em;
+  place-content: center; */
+  margin: 4em 1.2em 4em 1.2em;
+  column-count: 3;
+  column-width: 100px;
+}
+.companies:hover {
+  cursor: pointer;
 }
 
 /* the fig article */
@@ -124,6 +131,9 @@ figcaption p {
   font-size: 17px;
   border: none;
 }
+.touch:hover {
+  cursor: pointer;
+}
 /* footer  */
 #foot {
   width: 100%;
@@ -144,6 +154,26 @@ figcaption p {
 }
 
 @media screen and (min-width: 950px) {
+  .menu {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+    gap: 100px;
+  }
+  .nav-bar ul {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    font-size: 1.2em;
+    margin-right: 10em;
+  }
+  .companies {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .fig {
     column-count: 2;
     column-gap: 4em;
