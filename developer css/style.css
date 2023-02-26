@@ -66,6 +66,9 @@ a {
   column-count: 3;
   column-width: 100px;
 }
+.companies img {
+  width: 110px;
+}
 .companies:hover {
   cursor: pointer;
 }
@@ -132,6 +135,11 @@ figcaption p {
   border: none;
 }
 .touch:hover {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.touch:hover {
   cursor: pointer;
 }
 /* footer  */
@@ -149,17 +157,18 @@ figcaption p {
 
 #foot ul li {
   display: flex;
-  gap: 10px;
+  gap: 1.7em;
   padding-right: 20px;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 915px) {
   .menu {
     display: none;
   }
+
   .nav-bar {
     display: flex;
-    gap: 100px;
+    /* gap: 100px; */
   }
   .nav-bar ul {
     display: flex;
@@ -182,5 +191,11 @@ figcaption p {
   #about .container {
     column-count: 2;
     column-gap: 4em;
+  }
+  a:hover {
+    font-weight: bold;
+  }
+  a:visited {
+    color: white;
   }
 }
