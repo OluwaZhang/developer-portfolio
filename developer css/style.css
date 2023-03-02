@@ -68,6 +68,7 @@ a {
 }
 .companies img {
   width: 110px;
+  height: auto;
 }
 .companies:hover {
   cursor: pointer;
@@ -136,8 +137,7 @@ figcaption p {
 }
 .touch:hover {
   font-weight: bold;
-  background-color: black;
-  color: white;
+  background-color: white;
 }
 .touch:hover {
   cursor: pointer;
