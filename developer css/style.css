@@ -94,7 +94,7 @@ figcaption p {
 /* about section */
 #about {
   background-color: rgb(64, 64, 64);
-  width: 100%; /* this might be unnecessary */
+  /* width: 100%; */ /* this might be unnecessary */
   color: white;
   padding-top: 5em;
   padding-bottom: 2em;
@@ -137,7 +137,8 @@ figcaption p {
 }
 .touch:hover {
   font-weight: bold;
-  background-color: white;
+  background-color: black;
+  color: white; /* why is this not showing */
 }
 .touch:hover {
   cursor: pointer;
